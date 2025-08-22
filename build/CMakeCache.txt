@@ -28,7 +28,7 @@ CMAKE_BUILD_TYPE:STRING=Release
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:STRING=C:/msys64/ucrt64/bin/g++.exe
+CMAKE_CXX_COMPILER:FILEPATH=C:/msys64/ucrt64/bin/c++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -55,9 +55,6 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-
-//No help, variable specified on the command line.
-CMAKE_C_COMPILER:UNINITIALIZED=C:\msys64\ucrt64\bin\gcc.exe
 
 //Path to a program.
 CMAKE_DLLTOOL:FILEPATH=C:/msys64/ucrt64/bin/dlltool.exe
@@ -240,11 +237,8 @@ MiniGameSFML_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 MiniGameSFML_SOURCE_DIR:STATIC=C:/Users/Admin/Downloads/PROJECT
 
-//No help, variable specified on the command line.
-NLOHMANN_JSON_INCLUDE_DIR:UNINITIALIZED=C:/nlohmann-json/include  rem ─æß╗òi nß║┐u bß║ín ─æß╗â chß╗ù kh├íc
-
-//No help, variable specified on the command line.
-SFML_DIR:UNINITIALIZED=C:/msys64/ucrt64/lib/cmake/SFML
+//The directory containing a CMake configuration file for SFML.
+SFML_DIR:PATH=C:/msys64/ucrt64/lib/cmake/SFML
 
 //Path to a file.
 SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND

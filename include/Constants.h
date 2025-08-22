@@ -17,7 +17,15 @@ namespace Constants {
     
     // Animation timings (milliseconds)
     constexpr int DICE_ANIMATION_TIME = 800;
-    constexpr int COIN_ANIMATION_TIME = 2500;
+    constexpr int COIN_ANIMATION_TIME = 3000;        // 3 seconds for coin spin
+    constexpr int READY_SCREEN_TIME = 3000;          // 3 seconds "Are you Ready!?"
+
+    // Enhanced map settings
+    constexpr int TOTAL_MONSTERS = 3;                // 2 normal + 1 boss
+    constexpr int NORMAL_MONSTERS = 2;               // Chalamander + Bisasam
+    constexpr int TELEPORT_GATE_PAIRS = 2;           // 2 pairs of gates
+    constexpr int MAX_ROCKS_ON_PATH = 3;             // Max rocks on main path
+    constexpr int ROCK_BREAK_TURNS = 2;              // Turns needed to break + move
     
     // Combat settings
     constexpr int BASE_PLAYER_HP = 100;
@@ -47,6 +55,11 @@ namespace Constants {
     constexpr float TYPE_SUPER_EFFECTIVE = 1.5f;
     constexpr float TYPE_NOT_VERY_EFFECTIVE = 0.5f;
     constexpr float TYPE_NORMAL_EFFECTIVE = 1.0f;
+
+    // Enhanced combat settings
+    constexpr float MONSTER_DODGE_CHANCE = 0.3f;     // 30% chance for monsters to dodge
+    constexpr int PIKACHU_ATTACK_SKILLS = 3;         // ThunderBolt, QuickAttack, IronTail
+    constexpr int PIKACHU_DEFENSE_SKILLS = 3;        // Agility, DoubleTeam, Substitute
     
     // Progression
     constexpr int EVOLUTION_LEVEL = 5;
@@ -74,6 +87,16 @@ namespace Constants {
     // File paths
     const char* const SAVE_FILE_PATH = "save.json";
     const char* const FONT_PATH = "assets/fonts/arial.ttf";
+
+    // Icon paths (PNG files in assets/icon/)
+    const char* const ICON_PLAYER = "assets/icon/pikachu.png";
+    const char* const ICON_CHALAMANDER = "assets/icon/chalamander.png";
+    const char* const ICON_BISASAM = "assets/icon/bisasam.png";
+    const char* const ICON_BOSS = "assets/icon/boss.png";
+    const char* const ICON_WALL = "assets/icon/wall.png";
+    const char* const ICON_ROCK = "assets/icon/rock.png";
+    const char* const ICON_TELEPORT = "assets/icon/teleport.png";
+    const char* const ICON_GOAL = "assets/icon/goal.png";
     
     // Audio paths
     const char* const BGM_MENU = "assets/audio/bgm_menu.ogg";

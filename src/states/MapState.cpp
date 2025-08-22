@@ -82,8 +82,8 @@ void MapState::initializeNewGame(PokemonType pokemonType) {
     // TODO: Use pokemonType to create appropriate Pokemon
     (void)pokemonType; // Suppress unused parameter warning
 
-    // Generate new map
-    m_map.generateMap(*getContext().rng);
+    // Generate zigzag (serpentine) board
+    m_map.generateZigZag(*getContext().rng);
     
     // Initialize player
     m_player.setMapPosition(m_map.getStartPosition());
@@ -101,9 +101,9 @@ void MapState::initializeNewGame(PokemonType pokemonType) {
 
 void MapState::loadGame(const SaveData& saveData) {
     // Load map from save data
-    // For now, generate a new map with the saved seed
+    // For now, generate a new zigzag with the saved seed
     getContext().rng->setSeed(saveData.mapSeed);
-    m_map.generateMap(*getContext().rng);
+    m_map.generateZigZag(*getContext().rng);
     
     // Load player data
     m_player.loadFromSaveData(saveData);
@@ -167,18 +167,16 @@ void MapState::movePlayer(int steps) {
 
 void MapState::handleTileEvent(TileType tileType) {
     switch (tileType) {
-        case TileType::Pit:
-            requestStackPush(StateID::Coin);
+        case TileType::Rock:
+            // Rock obstacle - requires breaking (2 turns)
+            handleRockObstacle();
             break;
-        case TileType::Rift:
-            requestStackPush(StateID::Dice);
+        case TileType::Wall:
+            // Wall - impassable (shouldn't reach here)
             break;
-        case TileType::ArrowUp:
-        case TileType::ArrowDown:
-        case TileType::ArrowLeft:
-        case TileType::ArrowRight:
-            // Change player direction
-            // This would be implemented based on arrow type
+        case TileType::TeleportGate:
+            // Teleport gate - move to paired gate
+            handleTeleportGate();
             break;
         case TileType::Enemy:
             requestStackPush(StateID::Combat);
@@ -186,11 +184,30 @@ void MapState::handleTileEvent(TileType tileType) {
         case TileType::Boss:
             requestStackPush(StateID::Combat);
             break;
+        case TileType::Goal:
+            // Reached goal - victory!
+            handleGoalReached();
+            break;
         default:
             break;
     }
-    
+
     m_canRoll = true;
+}
+
+void MapState::handleRockObstacle() {
+    // TODO: Implement rock breaking mechanics (2 turns)
+    // For now, just show a message
+}
+
+void MapState::handleTeleportGate() {
+    // TODO: Implement teleport mechanics
+    // Move player to paired gate position + 1
+}
+
+void MapState::handleGoalReached() {
+    // TODO: Show congratulations and return to menu
+    requestStackPush(StateID::Victory);
 }
 
 void MapState::setupUI() {

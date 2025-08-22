@@ -32,6 +32,7 @@ public:
     void applySpecialEffect(class Entity& user, class Entity& target) const;
     
     // Factory methods for creating skills
+    // Legacy skills
     static std::unique_ptr<Skill> createPowerStrike();
     static std::unique_ptr<Skill> createCleave();
     static std::unique_ptr<Skill> createHeal();
@@ -40,6 +41,22 @@ public:
     static std::unique_ptr<Skill> createFireball();
     static std::unique_ptr<Skill> createAquaPulse();
     static std::unique_ptr<Skill> createLeafBlade();
+
+    // Pikachu Attack Skills
+    static std::unique_ptr<Skill> createThunderBolt();
+    static std::unique_ptr<Skill> createQuickAttack();
+    static std::unique_ptr<Skill> createIronTail();
+
+    // Pikachu Defense Skills
+    static std::unique_ptr<Skill> createAgility();
+    static std::unique_ptr<Skill> createDoubleTeam();
+    static std::unique_ptr<Skill> createSubstitute();
+
+    // Monster Skills
+    static std::unique_ptr<Skill> createEmber();
+    static std::unique_ptr<Skill> createVineWhip();
+    static std::unique_ptr<Skill> createTackle();
+    static std::unique_ptr<Skill> createDodge();
     
 private:
     SkillType m_type;

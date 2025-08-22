@@ -76,420 +76,420 @@ CMakeFiles/MiniGameSFML.dir/src/main.cpp.obj: CMakeFiles/MiniGameSFML.dir/includ
 CMakeFiles/MiniGameSFML.dir/src/main.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/main.cpp
 CMakeFiles/MiniGameSFML.dir/src/main.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/main.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/main.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\main.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\main.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\main.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/main.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\main.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\main.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\main.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/main.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\main.cpp > CMakeFiles\MiniGameSFML.dir\src\main.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\main.cpp > CMakeFiles\MiniGameSFML.dir\src\main.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/main.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\main.cpp -o CMakeFiles\MiniGameSFML.dir\src\main.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\main.cpp -o CMakeFiles\MiniGameSFML.dir\src\main.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/Game.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/Game.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/Game.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/Game.cpp
 CMakeFiles/MiniGameSFML.dir/src/Game.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/Game.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/Game.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\Game.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\Game.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\Game.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/Game.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\Game.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\Game.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\Game.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/Game.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\Game.cpp > CMakeFiles\MiniGameSFML.dir\src\Game.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\Game.cpp > CMakeFiles\MiniGameSFML.dir\src\Game.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/Game.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\Game.cpp -o CMakeFiles\MiniGameSFML.dir\src\Game.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\Game.cpp -o CMakeFiles\MiniGameSFML.dir\src\Game.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/StateStack.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/StateStack.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/StateStack.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/StateStack.cpp
 CMakeFiles/MiniGameSFML.dir/src/StateStack.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/StateStack.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/StateStack.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\StateStack.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\StateStack.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\StateStack.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/StateStack.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\StateStack.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\StateStack.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\StateStack.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/StateStack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/StateStack.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\StateStack.cpp > CMakeFiles\MiniGameSFML.dir\src\StateStack.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\StateStack.cpp > CMakeFiles\MiniGameSFML.dir\src\StateStack.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/StateStack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/StateStack.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\StateStack.cpp -o CMakeFiles\MiniGameSFML.dir\src\StateStack.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\StateStack.cpp -o CMakeFiles\MiniGameSFML.dir\src\StateStack.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/core/RNG.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/core/RNG.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/core/RNG.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/core/RNG.cpp
 CMakeFiles/MiniGameSFML.dir/src/core/RNG.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/core/RNG.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/core/RNG.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\core\RNG.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\core\RNG.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\core\RNG.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/core/RNG.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\core\RNG.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\core\RNG.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\core\RNG.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/core/RNG.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/core/RNG.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\core\RNG.cpp > CMakeFiles\MiniGameSFML.dir\src\core\RNG.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\core\RNG.cpp > CMakeFiles\MiniGameSFML.dir\src\core\RNG.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/core/RNG.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/core/RNG.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\core\RNG.cpp -o CMakeFiles\MiniGameSFML.dir\src\core\RNG.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\core\RNG.cpp -o CMakeFiles\MiniGameSFML.dir\src\core\RNG.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/core/AudioManager.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/core/AudioManager.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/core/AudioManager.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/core/AudioManager.cpp
 CMakeFiles/MiniGameSFML.dir/src/core/AudioManager.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/core/AudioManager.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/core/AudioManager.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\core\AudioManager.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\core\AudioManager.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\core\AudioManager.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/core/AudioManager.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\core\AudioManager.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\core\AudioManager.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\core\AudioManager.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/core/AudioManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/core/AudioManager.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\core\AudioManager.cpp > CMakeFiles\MiniGameSFML.dir\src\core\AudioManager.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\core\AudioManager.cpp > CMakeFiles\MiniGameSFML.dir\src\core\AudioManager.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/core/AudioManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/core/AudioManager.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\core\AudioManager.cpp -o CMakeFiles\MiniGameSFML.dir\src\core\AudioManager.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\core\AudioManager.cpp -o CMakeFiles\MiniGameSFML.dir\src\core\AudioManager.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/core/AssetManager.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/core/AssetManager.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/core/AssetManager.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/core/AssetManager.cpp
 CMakeFiles/MiniGameSFML.dir/src/core/AssetManager.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/core/AssetManager.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/core/AssetManager.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\core\AssetManager.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\core\AssetManager.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\core\AssetManager.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/core/AssetManager.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\core\AssetManager.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\core\AssetManager.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\core\AssetManager.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/core/AssetManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/core/AssetManager.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\core\AssetManager.cpp > CMakeFiles\MiniGameSFML.dir\src\core\AssetManager.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\core\AssetManager.cpp > CMakeFiles\MiniGameSFML.dir\src\core\AssetManager.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/core/AssetManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/core/AssetManager.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\core\AssetManager.cpp -o CMakeFiles\MiniGameSFML.dir\src\core\AssetManager.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\core\AssetManager.cpp -o CMakeFiles\MiniGameSFML.dir\src\core\AssetManager.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/core/SaveSystem.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/core/SaveSystem.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/core/SaveSystem.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/core/SaveSystem.cpp
 CMakeFiles/MiniGameSFML.dir/src/core/SaveSystem.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/core/SaveSystem.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/core/SaveSystem.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\core\SaveSystem.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\core\SaveSystem.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\core\SaveSystem.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/core/SaveSystem.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\core\SaveSystem.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\core\SaveSystem.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\core\SaveSystem.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/core/SaveSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/core/SaveSystem.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\core\SaveSystem.cpp > CMakeFiles\MiniGameSFML.dir\src\core\SaveSystem.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\core\SaveSystem.cpp > CMakeFiles\MiniGameSFML.dir\src\core\SaveSystem.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/core/SaveSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/core/SaveSystem.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\core\SaveSystem.cpp -o CMakeFiles\MiniGameSFML.dir\src\core\SaveSystem.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\core\SaveSystem.cpp -o CMakeFiles\MiniGameSFML.dir\src\core\SaveSystem.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/states/State.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/states/State.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/states/State.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/states/State.cpp
 CMakeFiles/MiniGameSFML.dir/src/states/State.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/states/State.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/State.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\State.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\State.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\State.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/State.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\State.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\State.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\State.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/states/State.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/states/State.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\State.cpp > CMakeFiles\MiniGameSFML.dir\src\states\State.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\State.cpp > CMakeFiles\MiniGameSFML.dir\src\states\State.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/states/State.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/states/State.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\State.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\State.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\State.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\State.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/states/MenuState.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/states/MenuState.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/states/MenuState.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/states/MenuState.cpp
 CMakeFiles/MiniGameSFML.dir/src/states/MenuState.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/states/MenuState.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/MenuState.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\MenuState.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\MenuState.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\MenuState.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/MenuState.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\MenuState.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\MenuState.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\MenuState.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/states/MenuState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/states/MenuState.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\MenuState.cpp > CMakeFiles\MiniGameSFML.dir\src\states\MenuState.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\MenuState.cpp > CMakeFiles\MiniGameSFML.dir\src\states\MenuState.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/states/MenuState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/states/MenuState.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\MenuState.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\MenuState.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\MenuState.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\MenuState.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/states/MapState.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/states/MapState.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/states/MapState.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/states/MapState.cpp
 CMakeFiles/MiniGameSFML.dir/src/states/MapState.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/states/MapState.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/MapState.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\MapState.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\MapState.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\MapState.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/MapState.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\MapState.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\MapState.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\MapState.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/states/MapState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/states/MapState.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\MapState.cpp > CMakeFiles\MiniGameSFML.dir\src\states\MapState.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\MapState.cpp > CMakeFiles\MiniGameSFML.dir\src\states\MapState.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/states/MapState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/states/MapState.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\MapState.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\MapState.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\MapState.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\MapState.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/states/DiceState.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/states/DiceState.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/states/DiceState.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/states/DiceState.cpp
 CMakeFiles/MiniGameSFML.dir/src/states/DiceState.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/states/DiceState.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/DiceState.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\DiceState.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\DiceState.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\DiceState.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/DiceState.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\DiceState.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\DiceState.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\DiceState.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/states/DiceState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/states/DiceState.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\DiceState.cpp > CMakeFiles\MiniGameSFML.dir\src\states\DiceState.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\DiceState.cpp > CMakeFiles\MiniGameSFML.dir\src\states\DiceState.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/states/DiceState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/states/DiceState.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\DiceState.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\DiceState.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\DiceState.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\DiceState.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/states/CoinState.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/states/CoinState.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/states/CoinState.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/states/CoinState.cpp
 CMakeFiles/MiniGameSFML.dir/src/states/CoinState.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/states/CoinState.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/CoinState.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\CoinState.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\CoinState.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\CoinState.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/CoinState.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\CoinState.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\CoinState.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\CoinState.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/states/CoinState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/states/CoinState.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\CoinState.cpp > CMakeFiles\MiniGameSFML.dir\src\states\CoinState.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\CoinState.cpp > CMakeFiles\MiniGameSFML.dir\src\states\CoinState.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/states/CoinState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/states/CoinState.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\CoinState.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\CoinState.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\CoinState.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\CoinState.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/states/CombatState.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/states/CombatState.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/states/CombatState.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/states/CombatState.cpp
 CMakeFiles/MiniGameSFML.dir/src/states/CombatState.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/states/CombatState.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/CombatState.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\CombatState.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\CombatState.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\CombatState.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/CombatState.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\CombatState.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\CombatState.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\CombatState.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/states/CombatState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/states/CombatState.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\CombatState.cpp > CMakeFiles\MiniGameSFML.dir\src\states\CombatState.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\CombatState.cpp > CMakeFiles\MiniGameSFML.dir\src\states\CombatState.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/states/CombatState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/states/CombatState.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\CombatState.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\CombatState.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\CombatState.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\CombatState.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/states/GameOverState.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/states/GameOverState.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/states/GameOverState.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/states/GameOverState.cpp
 CMakeFiles/MiniGameSFML.dir/src/states/GameOverState.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/states/GameOverState.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/GameOverState.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\GameOverState.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\GameOverState.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\GameOverState.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/GameOverState.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\GameOverState.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\GameOverState.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\GameOverState.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/states/GameOverState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/states/GameOverState.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\GameOverState.cpp > CMakeFiles\MiniGameSFML.dir\src\states\GameOverState.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\GameOverState.cpp > CMakeFiles\MiniGameSFML.dir\src\states\GameOverState.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/states/GameOverState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/states/GameOverState.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\GameOverState.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\GameOverState.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\GameOverState.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\GameOverState.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/states/VictoryState.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/states/VictoryState.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/states/VictoryState.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/states/VictoryState.cpp
 CMakeFiles/MiniGameSFML.dir/src/states/VictoryState.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/states/VictoryState.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/VictoryState.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\VictoryState.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\VictoryState.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\VictoryState.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/VictoryState.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\VictoryState.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\VictoryState.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\VictoryState.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/states/VictoryState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/states/VictoryState.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\VictoryState.cpp > CMakeFiles\MiniGameSFML.dir\src\states\VictoryState.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\VictoryState.cpp > CMakeFiles\MiniGameSFML.dir\src\states\VictoryState.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/states/VictoryState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/states/VictoryState.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\VictoryState.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\VictoryState.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\VictoryState.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\VictoryState.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/states/PauseState.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/states/PauseState.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/states/PauseState.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/states/PauseState.cpp
 CMakeFiles/MiniGameSFML.dir/src/states/PauseState.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/states/PauseState.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/PauseState.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\PauseState.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\PauseState.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\PauseState.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/states/PauseState.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\states\PauseState.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\states\PauseState.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\states\PauseState.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/states/PauseState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/states/PauseState.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\PauseState.cpp > CMakeFiles\MiniGameSFML.dir\src\states\PauseState.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\states\PauseState.cpp > CMakeFiles\MiniGameSFML.dir\src\states\PauseState.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/states/PauseState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/states/PauseState.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\PauseState.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\PauseState.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\states\PauseState.cpp -o CMakeFiles\MiniGameSFML.dir\src\states\PauseState.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/world/Map.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/world/Map.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/world/Map.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/world/Map.cpp
 CMakeFiles/MiniGameSFML.dir/src/world/Map.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/world/Map.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/world/Map.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\world\Map.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\world\Map.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\world\Map.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/world/Map.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\world\Map.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\world\Map.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\world\Map.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/world/Map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/world/Map.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\world\Map.cpp > CMakeFiles\MiniGameSFML.dir\src\world\Map.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\world\Map.cpp > CMakeFiles\MiniGameSFML.dir\src\world\Map.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/world/Map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/world/Map.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\world\Map.cpp -o CMakeFiles\MiniGameSFML.dir\src\world\Map.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\world\Map.cpp -o CMakeFiles\MiniGameSFML.dir\src\world\Map.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/world/Tile.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/world/Tile.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/world/Tile.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/world/Tile.cpp
 CMakeFiles/MiniGameSFML.dir/src/world/Tile.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/world/Tile.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/world/Tile.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\world\Tile.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\world\Tile.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\world\Tile.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/world/Tile.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\world\Tile.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\world\Tile.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\world\Tile.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/world/Tile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/world/Tile.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\world\Tile.cpp > CMakeFiles\MiniGameSFML.dir\src\world\Tile.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\world\Tile.cpp > CMakeFiles\MiniGameSFML.dir\src\world\Tile.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/world/Tile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/world/Tile.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\world\Tile.cpp -o CMakeFiles\MiniGameSFML.dir\src\world\Tile.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\world\Tile.cpp -o CMakeFiles\MiniGameSFML.dir\src\world\Tile.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Entity.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/entities/Entity.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/entities/Entity.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/entities/Entity.cpp
 CMakeFiles/MiniGameSFML.dir/src/entities/Entity.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/entities/Entity.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/entities/Entity.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\entities\Entity.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\entities\Entity.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\entities\Entity.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/entities/Entity.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\entities\Entity.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\entities\Entity.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\entities\Entity.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Entity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/entities/Entity.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\entities\Entity.cpp > CMakeFiles\MiniGameSFML.dir\src\entities\Entity.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\entities\Entity.cpp > CMakeFiles\MiniGameSFML.dir\src\entities\Entity.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/entities/Entity.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\entities\Entity.cpp -o CMakeFiles\MiniGameSFML.dir\src\entities\Entity.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\entities\Entity.cpp -o CMakeFiles\MiniGameSFML.dir\src\entities\Entity.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Player.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/entities/Player.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/entities/Player.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/entities/Player.cpp
 CMakeFiles/MiniGameSFML.dir/src/entities/Player.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/entities/Player.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/entities/Player.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\entities\Player.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\entities\Player.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\entities\Player.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/entities/Player.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\entities\Player.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\entities\Player.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\entities\Player.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/entities/Player.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\entities\Player.cpp > CMakeFiles\MiniGameSFML.dir\src\entities\Player.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\entities\Player.cpp > CMakeFiles\MiniGameSFML.dir\src\entities\Player.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/entities/Player.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\entities\Player.cpp -o CMakeFiles\MiniGameSFML.dir\src\entities\Player.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\entities\Player.cpp -o CMakeFiles\MiniGameSFML.dir\src\entities\Player.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Enemy.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/entities/Enemy.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/entities/Enemy.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/entities/Enemy.cpp
 CMakeFiles/MiniGameSFML.dir/src/entities/Enemy.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/entities/Enemy.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/entities/Enemy.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\entities\Enemy.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\entities\Enemy.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\entities\Enemy.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/entities/Enemy.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\entities\Enemy.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\entities\Enemy.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\entities\Enemy.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Enemy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/entities/Enemy.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\entities\Enemy.cpp > CMakeFiles\MiniGameSFML.dir\src\entities\Enemy.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\entities\Enemy.cpp > CMakeFiles\MiniGameSFML.dir\src\entities\Enemy.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/entities/Enemy.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\entities\Enemy.cpp -o CMakeFiles\MiniGameSFML.dir\src\entities\Enemy.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\entities\Enemy.cpp -o CMakeFiles\MiniGameSFML.dir\src\entities\Enemy.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Boss.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/entities/Boss.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/entities/Boss.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/entities/Boss.cpp
 CMakeFiles/MiniGameSFML.dir/src/entities/Boss.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/entities/Boss.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/entities/Boss.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\entities\Boss.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\entities\Boss.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\entities\Boss.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/entities/Boss.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\entities\Boss.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\entities\Boss.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\entities\Boss.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Boss.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/entities/Boss.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\entities\Boss.cpp > CMakeFiles\MiniGameSFML.dir\src\entities\Boss.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\entities\Boss.cpp > CMakeFiles\MiniGameSFML.dir\src\entities\Boss.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Boss.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/entities/Boss.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\entities\Boss.cpp -o CMakeFiles\MiniGameSFML.dir\src\entities\Boss.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\entities\Boss.cpp -o CMakeFiles\MiniGameSFML.dir\src\entities\Boss.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Pokemon.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/entities/Pokemon.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/entities/Pokemon.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/entities/Pokemon.cpp
 CMakeFiles/MiniGameSFML.dir/src/entities/Pokemon.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/entities/Pokemon.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/entities/Pokemon.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\entities\Pokemon.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\entities\Pokemon.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\entities\Pokemon.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/entities/Pokemon.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\entities\Pokemon.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\entities\Pokemon.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\entities\Pokemon.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Pokemon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/entities/Pokemon.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\entities\Pokemon.cpp > CMakeFiles\MiniGameSFML.dir\src\entities\Pokemon.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\entities\Pokemon.cpp > CMakeFiles\MiniGameSFML.dir\src\entities\Pokemon.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Pokemon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/entities/Pokemon.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\entities\Pokemon.cpp -o CMakeFiles\MiniGameSFML.dir\src\entities\Pokemon.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\entities\Pokemon.cpp -o CMakeFiles\MiniGameSFML.dir\src\entities\Pokemon.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Skill.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/entities/Skill.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/entities/Skill.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/entities/Skill.cpp
 CMakeFiles/MiniGameSFML.dir/src/entities/Skill.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/entities/Skill.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/entities/Skill.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\entities\Skill.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\entities\Skill.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\entities\Skill.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/entities/Skill.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\entities\Skill.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\entities\Skill.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\entities\Skill.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Skill.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/entities/Skill.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\entities\Skill.cpp > CMakeFiles\MiniGameSFML.dir\src\entities\Skill.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\entities\Skill.cpp > CMakeFiles\MiniGameSFML.dir\src\entities\Skill.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/entities/Skill.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/entities/Skill.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\entities\Skill.cpp -o CMakeFiles\MiniGameSFML.dir\src\entities\Skill.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\entities\Skill.cpp -o CMakeFiles\MiniGameSFML.dir\src\entities\Skill.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/ui/Button.cpp
 CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\ui\Button.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\ui\Button.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\ui\Button.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\ui\Button.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\ui\Button.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\ui\Button.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\ui\Button.cpp > CMakeFiles\MiniGameSFML.dir\src\ui\Button.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\ui\Button.cpp > CMakeFiles\MiniGameSFML.dir\src\ui\Button.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\ui\Button.cpp -o CMakeFiles\MiniGameSFML.dir\src\ui\Button.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\ui\Button.cpp -o CMakeFiles\MiniGameSFML.dir\src\ui\Button.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/ui/Panel.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/ui/Panel.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/ui/Panel.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/ui/Panel.cpp
 CMakeFiles/MiniGameSFML.dir/src/ui/Panel.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/ui/Panel.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/ui/Panel.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\ui\Panel.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\ui\Panel.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\ui\Panel.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/ui/Panel.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\ui\Panel.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\ui\Panel.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\ui\Panel.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/ui/Panel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/ui/Panel.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\ui\Panel.cpp > CMakeFiles\MiniGameSFML.dir\src\ui\Panel.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\ui\Panel.cpp > CMakeFiles\MiniGameSFML.dir\src\ui\Panel.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/ui/Panel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/ui/Panel.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\ui\Panel.cpp -o CMakeFiles\MiniGameSFML.dir\src\ui\Panel.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\ui\Panel.cpp -o CMakeFiles\MiniGameSFML.dir\src\ui\Panel.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/ui/TextLabel.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/ui/TextLabel.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/ui/TextLabel.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/ui/TextLabel.cpp
 CMakeFiles/MiniGameSFML.dir/src/ui/TextLabel.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/ui/TextLabel.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/ui/TextLabel.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\ui\TextLabel.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\ui\TextLabel.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\ui\TextLabel.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/ui/TextLabel.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\ui\TextLabel.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\ui\TextLabel.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\ui\TextLabel.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/ui/TextLabel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/ui/TextLabel.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\ui\TextLabel.cpp > CMakeFiles\MiniGameSFML.dir\src\ui\TextLabel.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\ui\TextLabel.cpp > CMakeFiles\MiniGameSFML.dir\src\ui\TextLabel.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/ui/TextLabel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/ui/TextLabel.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\ui\TextLabel.cpp -o CMakeFiles\MiniGameSFML.dir\src\ui\TextLabel.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\ui\TextLabel.cpp -o CMakeFiles\MiniGameSFML.dir\src\ui\TextLabel.cpp.s
 
 CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
 CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
 CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/ui/Bar.cpp
 CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\ui\Bar.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\ui\Bar.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\ui\Bar.cpp
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\ui\Bar.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\ui\Bar.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\ui\Bar.cpp
 
 CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\ui\Bar.cpp > CMakeFiles\MiniGameSFML.dir\src\ui\Bar.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\ui\Bar.cpp > CMakeFiles\MiniGameSFML.dir\src\ui\Bar.cpp.i
 
 CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\ui\Bar.cpp -o CMakeFiles\MiniGameSFML.dir\src\ui\Bar.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\ui\Bar.cpp -o CMakeFiles\MiniGameSFML.dir\src\ui\Bar.cpp.s
 
 # Object files for target MiniGameSFML
 MiniGameSFML_OBJECTS = \
@@ -555,28 +555,122 @@ MiniGameSFML.exe: CMakeFiles/MiniGameSFML.dir/src/ui/TextLabel.cpp.obj
 MiniGameSFML.exe: CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.obj
 MiniGameSFML.exe: CMakeFiles/MiniGameSFML.dir/build.make
 MiniGameSFML.exe: C:/msys64/ucrt64/lib/libsfml-graphics.dll.a
-MiniGameSFML.exe: C:/msys64/ucrt64/lib/libsfml-audio.dll.a
 MiniGameSFML.exe: C:/msys64/ucrt64/lib/libsfml-window.dll.a
+MiniGameSFML.exe: C:/msys64/ucrt64/lib/libsfml-audio.dll.a
 MiniGameSFML.exe: C:/msys64/ucrt64/lib/libsfml-system.dll.a
 MiniGameSFML.exe: CMakeFiles/MiniGameSFML.dir/linkLibs.rsp
 MiniGameSFML.exe: CMakeFiles/MiniGameSFML.dir/objects1.rsp
 MiniGameSFML.exe: CMakeFiles/MiniGameSFML.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable MiniGameSFML.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MiniGameSFML.dir\link.txt --verbose=$(VERBOSE)
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libsfml-system-2.dll C:/Users/Admin/Downloads/PROJECT/build/libsfml-system-2.dll
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libsfml-window-2.dll C:/Users/Admin/Downloads/PROJECT/build/libsfml-window-2.dll
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libsfml-graphics-2.dll C:/Users/Admin/Downloads/PROJECT/build/libsfml-graphics-2.dll
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libsfml-audio-2.dll C:/Users/Admin/Downloads/PROJECT/build/libsfml-audio-2.dll
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libstdc++-6.dll C:/Users/Admin/Downloads/PROJECT/build/libstdc++-6.dll
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libgcc_s_seh-1.dll C:/Users/Admin/Downloads/PROJECT/build/libgcc_s_seh-1.dll
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libwinpthread-1.dll C:/Users/Admin/Downloads/PROJECT/build/libwinpthread-1.dll
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libopenal-1.dll C:/Users/Admin/Downloads/PROJECT/build/libopenal-1.dll
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libsndfile-1.dll C:/Users/Admin/Downloads/PROJECT/build/libsndfile-1.dll
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libogg-0.dll C:/Users/Admin/Downloads/PROJECT/build/libogg-0.dll
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libvorbis-0.dll C:/Users/Admin/Downloads/PROJECT/build/libvorbis-0.dll
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libvorbisenc-2.dll C:/Users/Admin/Downloads/PROJECT/build/libvorbisenc-2.dll
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libvorbisfile-3.dll C:/Users/Admin/Downloads/PROJECT/build/libvorbisfile-3.dll
-	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libmpg123-0.dll C:/Users/Admin/Downloads/PROJECT/build/libmpg123-0.dll
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/edit.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libFLAC++.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libFLAC.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libarchive-13.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libasprintf-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libatomic-1.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libb2-1.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libbrotlicommon.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libbrotlidec.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libbrotlienc.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libbz2-1.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libcares-2.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libcharset-1.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libcppdap.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libcrypto-3-x64.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libcurl-4.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libexpat-1.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libffi-8.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libformw6.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libfreetype-6.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libgcc_s_seh-1.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libgio-2.0-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libgirepository-2.0-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libglib-2.0-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libgmodule-2.0-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libgmp-10.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libgmpxx-4.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libgnutls-30.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libgnutls-openssl-27.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libgnutlsxx-30.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libgobject-2.0-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libgomp-1.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libgraphite2.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libgthread-2.0-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libharfbuzz-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libharfbuzz-gobject-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libharfbuzz-subset-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libhistory8.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libhogweed-6.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libiconv-2.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libidn2-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libintl-8.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libisl-23.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libjpeg-8.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libjsoncpp-26.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/liblz4.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/liblzma-5.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libmenuw6.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libmp3lame-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libmpc-3.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libmpdec++-4.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libmpdec-4.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libmpfr-6.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libmpg123-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libmysofa.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libncurses++w6.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libncursesw6.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libnettle-8.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libnghttp2-14.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libnghttp3-9.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libngtcp2-16.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libngtcp2_crypto_gnutls-8.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libngtcp2_crypto_ossl.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libogg-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libopenal-1.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libopus-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libout123-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libp11-kit-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libpanelw6.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libpcre2-16-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libpcre2-32-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libpcre2-8-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libpcre2-posix-3.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libpkgconf-7.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libpng16-16.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libpsl-5.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libpython3.12.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libpython3.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libquadmath-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libreadline8.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/librhash.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libsfml-audio-2.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libsfml-graphics-2.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libsfml-network-2.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libsfml-system-2.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libsfml-window-2.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libsndfile-1.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libsqlite3-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libssh2-1.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libssl-3-x64.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libstdc++-6.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libsyn123-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libsystre-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libtasn1-6.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libtermcap-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libtre-5.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libturbojpeg.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libunistring-5.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libuv-1.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libvorbis-0.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libvorbisenc-2.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libvorbisfile-3.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libwinpthread-1.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libxxhash.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libzstd.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/tcl86.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/tk86.dll C:/Users/Admin/Downloads/PROJECT/build
+	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/zlib1.dll C:/Users/Admin/Downloads/PROJECT/build
 
 # Rule to build all files generated by this target.
 CMakeFiles/MiniGameSFML.dir/build: MiniGameSFML.exe

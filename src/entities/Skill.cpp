@@ -99,3 +99,56 @@ std::unique_ptr<Skill> Skill::createLeafBlade() {
     SkillData data(SkillType::LeafBlade, 12, 2, 1.4f, 0.0f, true, false, true);
     return std::make_unique<Skill>(SkillType::LeafBlade, "Leaf Blade", data);
 }
+
+// Pikachu Attack Skills
+std::unique_ptr<Skill> Skill::createThunderBolt() {
+    SkillData data(SkillType::ThunderBolt, 15, 2, 1.8f, 0.0f, true, false, true);
+    return std::make_unique<Skill>(SkillType::ThunderBolt, "Thunder Bolt", data);
+}
+
+std::unique_ptr<Skill> Skill::createQuickAttack() {
+    SkillData data(SkillType::QuickAttack, 8, 1, 1.2f, 0.0f, true, false, false);
+    return std::make_unique<Skill>(SkillType::QuickAttack, "Quick Attack", data);
+}
+
+std::unique_ptr<Skill> Skill::createIronTail() {
+    SkillData data(SkillType::IronTail, 12, 3, 1.6f, 0.0f, true, false, false);
+    return std::make_unique<Skill>(SkillType::IronTail, "Iron Tail", data);
+}
+
+// Pikachu Defense Skills
+std::unique_ptr<Skill> Skill::createAgility() {
+    SkillData data(SkillType::Agility, 10, 2, 0.0f, 0.0f, false, true, true);
+    return std::make_unique<Skill>(SkillType::Agility, "Agility", data);
+}
+
+std::unique_ptr<Skill> Skill::createDoubleTeam() {
+    SkillData data(SkillType::DoubleTeam, 12, 3, 0.0f, 0.0f, false, true, true);
+    return std::make_unique<Skill>(SkillType::DoubleTeam, "Double Team", data);
+}
+
+std::unique_ptr<Skill> Skill::createSubstitute() {
+    SkillData data(SkillType::Substitute, 15, 4, 0.0f, 0.0f, false, true, true);
+    return std::make_unique<Skill>(SkillType::Substitute, "Substitute", data);
+}
+
+// Monster Skills
+std::unique_ptr<Skill> Skill::createEmber() {
+    SkillData data(SkillType::Ember, 10, 2, 1.4f, 0.0f, true, false, false);
+    return std::make_unique<Skill>(SkillType::Ember, "Ember", data);
+}
+
+std::unique_ptr<Skill> Skill::createVineWhip() {
+    SkillData data(SkillType::VineWhip, 8, 2, 1.3f, 0.0f, true, false, false);
+    return std::make_unique<Skill>(SkillType::VineWhip, "Vine Whip", data);
+}
+
+std::unique_ptr<Skill> Skill::createTackle() {
+    SkillData data(SkillType::Tackle, 5, 1, 1.0f, 0.0f, true, false, false);
+    return std::make_unique<Skill>(SkillType::Tackle, "Tackle", data);
+}
+
+std::unique_ptr<Skill> Skill::createDodge() {
+    SkillData data(SkillType::Dodge, 5, 1, 0.0f, 0.0f, false, true, true);
+    return std::make_unique<Skill>(SkillType::Dodge, "Dodge", data);
+}

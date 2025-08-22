@@ -23,6 +23,9 @@ public:
     void rollDice();
     void movePlayer(int steps);
     void handleTileEvent(TileType tileType);
+    void handleRockObstacle();
+    void handleTeleportGate();
+    void handleGoalReached();
     
     // Getters for other states
     Player& getPlayer() { return m_player; }

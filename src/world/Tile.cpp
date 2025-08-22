@@ -13,23 +13,20 @@ Tile::Tile(TileType type)
 }
 
 bool Tile::isWalkable() const {
-    return m_type != TileType::Rock;
+    // Walkable if not a blocking obstacle
+    return m_type != TileType::Rock && m_type != TileType::Wall;
 }
 
 bool Tile::blocksMovement() const {
-    return m_type == TileType::Rock;
+    return m_type == TileType::Rock || m_type == TileType::Wall;
 }
 
 bool Tile::hasEvent() const {
     switch (m_type) {
-        case TileType::Pit:
-        case TileType::Rift:
-        case TileType::ArrowUp:
-        case TileType::ArrowDown:
-        case TileType::ArrowLeft:
-        case TileType::ArrowRight:
+        case TileType::TeleportGate:
         case TileType::Enemy:
         case TileType::Boss:
+        case TileType::Goal:
             return true;
         default:
             return false;
@@ -37,11 +34,6 @@ bool Tile::hasEvent() const {
 }
 
 Direction Tile::getArrowDirection() const {
-    switch (m_type) {
-        case TileType::ArrowUp: return Direction::Up;
-        case TileType::ArrowDown: return Direction::Down;
-        case TileType::ArrowLeft: return Direction::Left;
-        case TileType::ArrowRight: return Direction::Right;
-        default: return Direction::Up; // Default fallback
-    }
+    // Arrows removed in enhanced map; keep default
+    return Direction::Up;
 }

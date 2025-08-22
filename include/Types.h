@@ -14,6 +14,8 @@ enum class StateID {
     Dice,
     Coin,
     Combat,
+    EnhancedCombat,
+    Ready,
     GameOver,
     Victory,
     Pause
@@ -21,15 +23,12 @@ enum class StateID {
 
 enum class TileType {
     Empty,
-    Rock,
-    Pit,
-    Rift,
-    ArrowUp,
-    ArrowDown,
-    ArrowLeft,
-    ArrowRight,
-    Enemy,
-    Boss
+    Wall,           // Maze walls (black background, white border)
+    Rock,           // Breakable obstacles (2 turns to pass)
+    TeleportGate,   // Teleport gates (paired)
+    Enemy,          // Normal monsters (2 total)
+    Boss,           // Boss monster at goal (1 total)
+    Goal            // Goal position
 };
 
 enum class Direction {
@@ -46,12 +45,29 @@ enum class PokemonType {
 };
 
 enum class SkillType {
+    // Normal attack
+    NormalAttack,
+
+    // Pikachu skills (6 total: 3 attack + 3 defense)
+    ThunderBolt,     // Attack 1
+    QuickAttack,     // Attack 2
+    IronTail,        // Attack 3
+    Agility,         // Defense 1 (speed boost)
+    DoubleTeam,      // Defense 2 (evasion)
+    Substitute,      // Defense 3 (damage reduction)
+
+    // Monster skills
+    Ember,           // Chalamander attack
+    VineWhip,        // Bisasam attack
+    Tackle,          // Common attack
+    Dodge,           // Common defense (30% evade)
+
+    // Legacy skills kept for compatibility with existing code
     PowerStrike,
     Cleave,
     Heal,
     Guard,
     Counter,
-    // Evolution skills
     Fireball,
     AquaPulse,
     LeafBlade
@@ -73,6 +89,24 @@ enum class CombatResult {
     PlayerWin,
     EnemyWin,
     Ongoing
+};
+
+enum class CombatPhase {
+    Ready,           // "Are you Ready!?" screen (3s)
+    PlayerCoin,      // Player tosses coin for attack
+    PlayerAction,    // Player selects action based on coin
+    EnemyCoin,       // Player tosses coin for defense
+    EnemyAction,     // Enemy attacks, player defends
+    Victory,         // Show victory screen
+    Defeat,          // Show defeat screen
+    Ended
+};
+
+enum class MonsterType {
+    Pikachu,         // Main character
+    Chalamander,     // Normal monster 1
+    Bisasam,         // Normal monster 2
+    Boss             // Boss monster (TBD)
 };
 
 // Structs
@@ -106,6 +140,24 @@ struct SkillData {
           healMultiplier(heal), isOffensive(off), isDefensive(def), hasSpecialEffect(special) {}
 };
 
+struct TeleportGate {
+    Vec2i position;
+    int pairId;          // ID of paired gate
+    Vec2i targetPosition; // Position of paired gate
+
+    TeleportGate() = default;
+    TeleportGate(Vec2i pos, int id) : position(pos), pairId(id) {}
+};
+
+struct RockState {
+    Vec2i position;
+    bool isBroken;       // false = intact, true = broken (passable)
+    int breakProgress;   // 0 = intact, 1 = breaking, 2 = broken
+
+    RockState() = default;
+    RockState(Vec2i pos) : position(pos), isBroken(false), breakProgress(0) {}
+};
+
 struct SaveData {
     unsigned int mapSeed;
     Vec2i position;
@@ -119,6 +171,8 @@ struct SaveData {
     unsigned int rngSeed;
     PokemonType pokemonType;
     int upgradePoints;
+    std::vector<RockState> rockStates;
+    std::vector<TeleportGate> teleportGates;
 };
 
 // Utility functions

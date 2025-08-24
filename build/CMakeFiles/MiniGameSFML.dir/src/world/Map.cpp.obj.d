@@ -245,8 +245,27 @@ CMakeFiles/MiniGameSFML.dir/src/world/Map.cpp.obj: \
  C:/msys64/ucrt64/include/SFML/Graphics/Sprite.hpp \
  C:/msys64/ucrt64/include/SFML/Graphics/Text.hpp \
  C:/msys64/ucrt64/include/SFML/Graphics/VertexBuffer.hpp \
+ C:/msys64/ucrt64/include/c++/15.2.0/optional \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/enable_special_members.h \
  C:/Users/Admin/Downloads/PROJECT/include/world/Tile.h \
  C:/Users/Admin/Downloads/PROJECT/include/Types.h \
+ C:/Users/Admin/Downloads/PROJECT/include/entities/Player.h \
+ C:/Users/Admin/Downloads/PROJECT/include/entities/Entity.h \
+ C:/Users/Admin/Downloads/PROJECT/include/entities/Pokemon.h \
+ C:/Users/Admin/Downloads/PROJECT/include/entities/Skill.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/memory \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_raw_storage_iter.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/align.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/unique_ptr.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/shared_ptr.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/shared_ptr_base.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/allocated_ptr.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/ext/concurrence.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/shared_ptr_atomic.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/atomic_base.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/atomic_lockfree_defines.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/backward/auto_ptr.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_memory_defs.h \
  C:/Users/Admin/Downloads/PROJECT/include/core/RNG.h \
  C:/msys64/ucrt64/include/c++/15.2.0/random \
  C:/msys64/ucrt64/include/c++/15.2.0/cmath \
@@ -277,6 +296,7 @@ CMakeFiles/MiniGameSFML.dir/src/world/Map.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/numeric \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_numeric.h \
  C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_numeric_defs.h \
+ C:/Users/Admin/Downloads/PROJECT/include/core/AssetManager.h \
  C:/Users/Admin/Downloads/PROJECT/include/Constants.h \
  C:/msys64/ucrt64/include/c++/15.2.0/fstream \
  C:/msys64/ucrt64/include/c++/15.2.0/istream \

@@ -179,6 +179,32 @@ void Player::draw(sf::RenderTarget& target, sf::RenderStates states) const {
     target.draw(spriteCopy, states);
 }
 
+// Auto-path system implementation
+void Player::initVisitedGlobal(int width, int height) {
+    m_visitedGlobal.assign(height, std::vector<bool>(width, false));
+}
+
+void Player::markVisited(const Vec2i& pos) {
+    if (pos.y >= 0 && pos.y < static_cast<int>(m_visitedGlobal.size()) &&
+        pos.x >= 0 && pos.x < static_cast<int>(m_visitedGlobal[0].size())) {
+        m_visitedGlobal[pos.y][pos.x] = true;
+    }
+}
+
+bool Player::hasVisited(const Vec2i& pos) const {
+    if (pos.y >= 0 && pos.y < static_cast<int>(m_visitedGlobal.size()) &&
+        pos.x >= 0 && pos.x < static_cast<int>(m_visitedGlobal[0].size())) {
+        return m_visitedGlobal[pos.y][pos.x];
+    }
+    return false;
+}
+
+void Player::resetVisitedGlobal() {
+    for (auto& row : m_visitedGlobal) {
+        std::fill(row.begin(), row.end(), false);
+    }
+}
+
 void Player::updateStatsFromPokemon() {
     if (m_pokemon) {
         m_pokemon->setStats(m_stats);

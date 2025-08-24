@@ -32,6 +32,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Admin/Downloads/PROJECT/src/states/VictoryState.cpp" "CMakeFiles/MiniGameSFML.dir/src/states/VictoryState.cpp.obj" "gcc" "CMakeFiles/MiniGameSFML.dir/src/states/VictoryState.cpp.obj.d"
   "C:/Users/Admin/Downloads/PROJECT/src/ui/Bar.cpp" "CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.obj" "gcc" "CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.obj.d"
   "C:/Users/Admin/Downloads/PROJECT/src/ui/Button.cpp" "CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.obj" "gcc" "CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.obj.d"
+  "C:/Users/Admin/Downloads/PROJECT/src/ui/CombatUI.cpp" "CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.obj" "gcc" "CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.obj.d"
   "C:/Users/Admin/Downloads/PROJECT/src/ui/Panel.cpp" "CMakeFiles/MiniGameSFML.dir/src/ui/Panel.cpp.obj" "gcc" "CMakeFiles/MiniGameSFML.dir/src/ui/Panel.cpp.obj.d"
   "C:/Users/Admin/Downloads/PROJECT/src/ui/TextLabel.cpp" "CMakeFiles/MiniGameSFML.dir/src/ui/TextLabel.cpp.obj" "gcc" "CMakeFiles/MiniGameSFML.dir/src/ui/TextLabel.cpp.obj.d"
   "C:/Users/Admin/Downloads/PROJECT/src/world/Map.cpp" "CMakeFiles/MiniGameSFML.dir/src/world/Map.cpp.obj" "gcc" "CMakeFiles/MiniGameSFML.dir/src/world/Map.cpp.obj.d"

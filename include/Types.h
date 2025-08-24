@@ -22,12 +22,13 @@ enum class StateID {
 };
 
 enum class TileType {
-    Empty,
-    Wall,           // Maze walls (black background, white border)
-    Rock,           // Breakable obstacles (2 turns to pass)
-    TeleportGate,   // Teleport gates (paired)
-    Enemy,          // Normal monsters (2 total)
-    Boss,           // Boss monster at goal (1 total)
+    Empty,          // Walkable path
+    Wall,           // Impassable walls
+    Rock,           // Breakable obstacles (2 turns: break + move)
+    PortalA,        // Portal A (teleports to PortalB)
+    PortalB,        // Portal B (teleports to PortalA)
+    Enemy,          // Normal monsters (Charmander, Bulbasaur)
+    Boss,           // Boss monster at goal
     Goal            // Goal position
 };
 
@@ -42,6 +43,12 @@ enum class PokemonType {
     Fire,
     Water,
     Grass
+};
+
+enum class CombatResult {
+    None,
+    Victory,
+    Unfortunately
 };
 
 enum class SkillType {
@@ -85,11 +92,7 @@ enum class CoinChoice {
     Tail
 };
 
-enum class CombatResult {
-    PlayerWin,
-    EnemyWin,
-    Ongoing
-};
+// CombatResult enum moved to line 48
 
 enum class CombatPhase {
     Ready,           // "Are you Ready!?" screen (3s)
@@ -156,6 +159,34 @@ struct RockState {
 
     RockState() = default;
     RockState(Vec2i pos) : position(pos), isBroken(false), breakProgress(0) {}
+};
+
+// Game mechanics structs
+struct DiceRoll {
+    int result;
+    int remainingSteps;
+    bool isActive;
+
+    DiceRoll() : result(0), remainingSteps(0), isActive(false) {}
+    DiceRoll(int r) : result(r), remainingSteps(r), isActive(true) {}
+};
+
+struct Portal {
+    Vec2i positionA;
+    Vec2i positionB;
+    bool isActive;
+
+    Portal() = default;
+    Portal(Vec2i a, Vec2i b) : positionA(a), positionB(b), isActive(true) {}
+};
+
+struct MonsterData {
+    Vec2i position;
+    MonsterType type;
+    bool isDefeated;
+
+    MonsterData() = default;
+    MonsterData(Vec2i pos, MonsterType t) : position(pos), type(t), isDefeated(false) {}
 };
 
 struct SaveData {

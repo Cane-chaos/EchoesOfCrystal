@@ -23,6 +23,12 @@ public:
     // Movement
     Vec2i calculateMovement(int steps) const;
     void moveSteps(int steps, const class Map& map);
+
+    // Auto-path system
+    void initVisitedGlobal(int width, int height);
+    void markVisited(const Vec2i& pos);
+    bool hasVisited(const Vec2i& pos) const;
+    void resetVisitedGlobal();
     
     // Progression
     void gainExperience(int amount);
@@ -57,9 +63,12 @@ private:
     std::unique_ptr<Pokemon> m_pokemon;
     Vec2i m_mapPosition;
     Direction m_direction;
-    
+
     int m_experience;
     int m_victories;
+
+    // Auto-path system
+    std::vector<std::vector<bool>> m_visitedGlobal;
     int m_upgradePoints;
     
     // Visual representation

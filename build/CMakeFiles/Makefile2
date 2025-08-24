@@ -84,12 +84,12 @@ clean: CMakeFiles/MiniGameSFML.dir/clean
 CMakeFiles/MiniGameSFML.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MiniGameSFML.dir\build.make CMakeFiles/MiniGameSFML.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MiniGameSFML.dir\build.make CMakeFiles/MiniGameSFML.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29 "Built target MiniGameSFML"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Built target MiniGameSFML"
 .PHONY : CMakeFiles/MiniGameSFML.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MiniGameSFML.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MiniGameSFML.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles 0
 .PHONY : CMakeFiles/MiniGameSFML.dir/rule
@@ -101,7 +101,7 @@ MiniGameSFML: CMakeFiles/MiniGameSFML.dir/rule
 # codegen rule for target.
 CMakeFiles/MiniGameSFML.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MiniGameSFML.dir\build.make CMakeFiles/MiniGameSFML.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29 "Finished codegen for target MiniGameSFML"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Finished codegen for target MiniGameSFML"
 .PHONY : CMakeFiles/MiniGameSFML.dir/codegen
 
 # clean rule for target.

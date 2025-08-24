@@ -263,5 +263,7 @@ CMakeFiles/MiniGameSFML.dir/src/entities/Player.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/backward/auto_ptr.h \
  C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_memory_defs.h \
  C:/Users/Admin/Downloads/PROJECT/include/world/Map.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/optional \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/enable_special_members.h \
  C:/Users/Admin/Downloads/PROJECT/include/world/Tile.h \
  C:/Users/Admin/Downloads/PROJECT/include/Constants.h

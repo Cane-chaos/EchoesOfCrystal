@@ -424,6 +424,7 @@ CMakeFiles/MiniGameSFML.dir/src/Game.cpp.obj: \
  C:/Users/Admin/Downloads/PROJECT/include/states/CombatState.h \
  C:/Users/Admin/Downloads/PROJECT/include/entities/Enemy.h \
  C:/Users/Admin/Downloads/PROJECT/include/ui/Panel.h \
+ C:/Users/Admin/Downloads/PROJECT/include/ui/CombatUI.h \
  C:/Users/Admin/Downloads/PROJECT/include/states/GameOverState.h \
  C:/Users/Admin/Downloads/PROJECT/include/states/VictoryState.h \
  C:/Users/Admin/Downloads/PROJECT/include/states/PauseState.h \

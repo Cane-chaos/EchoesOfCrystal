@@ -47,6 +47,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.obj.d"
   "CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.obj"
   "CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.obj.d"
+  "CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.obj"
+  "CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.obj.d"
   "CMakeFiles/MiniGameSFML.dir/src/ui/Panel.cpp.obj"
   "CMakeFiles/MiniGameSFML.dir/src/ui/Panel.cpp.obj.d"
   "CMakeFiles/MiniGameSFML.dir/src/ui/TextLabel.cpp.obj"

@@ -261,6 +261,8 @@ CMakeFiles/MiniGameSFML.dir/src/states/MapState.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_memory_defs.h \
  C:/Users/Admin/Downloads/PROJECT/include/Types.h \
  C:/Users/Admin/Downloads/PROJECT/include/world/Map.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/optional \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/enable_special_members.h \
  C:/Users/Admin/Downloads/PROJECT/include/world/Tile.h \
  C:/Users/Admin/Downloads/PROJECT/include/entities/Player.h \
  C:/Users/Admin/Downloads/PROJECT/include/entities/Entity.h \
@@ -274,15 +276,13 @@ CMakeFiles/MiniGameSFML.dir/src/states/MapState.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/unordered_map.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/hashtable.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/hashtable_policy.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/enable_special_members.h \
  C:/msys64/ucrt64/include/c++/15.2.0/array \
  C:/msys64/ucrt64/include/c++/15.2.0/compare \
  C:/Users/Admin/Downloads/PROJECT/include/ui/Bar.h \
- C:/Users/Admin/Downloads/PROJECT/include/StateStack.h \
- C:/Users/Admin/Downloads/PROJECT/include/Constants.h \
- C:/Users/Admin/Downloads/PROJECT/include/core/AssetManager.h \
- C:/Users/Admin/Downloads/PROJECT/include/core/RNG.h \
- C:/msys64/ucrt64/include/c++/15.2.0/random \
+ C:/Users/Admin/Downloads/PROJECT/include/states/CombatState.h \
+ C:/Users/Admin/Downloads/PROJECT/include/entities/Enemy.h \
+ C:/Users/Admin/Downloads/PROJECT/include/ui/Panel.h \
+ C:/Users/Admin/Downloads/PROJECT/include/ui/CombatUI.h \
  C:/msys64/ucrt64/include/c++/15.2.0/cmath \
  C:/msys64/ucrt64/include/math.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/specfun.h \
@@ -299,6 +299,11 @@ CMakeFiles/MiniGameSFML.dir/src/states/MapState.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/tr1/poly_hermite.tcc \
  C:/msys64/ucrt64/include/c++/15.2.0/tr1/poly_laguerre.tcc \
  C:/msys64/ucrt64/include/c++/15.2.0/tr1/riemann_zeta.tcc \
+ C:/Users/Admin/Downloads/PROJECT/include/StateStack.h \
+ C:/Users/Admin/Downloads/PROJECT/include/Constants.h \
+ C:/Users/Admin/Downloads/PROJECT/include/core/AssetManager.h \
+ C:/Users/Admin/Downloads/PROJECT/include/core/RNG.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/random \
  C:/msys64/ucrt64/include/c++/15.2.0/cstdint \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/random.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/opt_random.h \
@@ -370,7 +375,6 @@ CMakeFiles/MiniGameSFML.dir/src/states/MapState.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/fs_dir.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/fs_ops.h \
  C:/msys64/ucrt64/include/nlohmann/detail/conversions/to_json.hpp \
- C:/msys64/ucrt64/include/c++/15.2.0/optional \
  C:/msys64/ucrt64/include/nlohmann/detail/iterators/iteration_proxy.hpp \
  C:/msys64/ucrt64/include/nlohmann/detail/string_utils.hpp \
  C:/msys64/ucrt64/include/nlohmann/byte_container_with_subtype.hpp \
@@ -395,4 +399,5 @@ CMakeFiles/MiniGameSFML.dir/src/states/MapState.cpp.obj: \
  C:/msys64/ucrt64/include/nlohmann/ordered_map.hpp \
  C:/msys64/ucrt64/include/c++/15.2.0/any \
  C:/msys64/ucrt64/include/nlohmann/detail/macro_unscope.hpp \
- C:/msys64/ucrt64/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
+ C:/msys64/ucrt64/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+ C:/msys64/ucrt64/include/c++/15.2.0/iostream

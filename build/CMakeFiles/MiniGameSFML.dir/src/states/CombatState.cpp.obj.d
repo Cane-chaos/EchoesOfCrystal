@@ -278,12 +278,7 @@ CMakeFiles/MiniGameSFML.dir/src/states/CombatState.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/compare \
  C:/Users/Admin/Downloads/PROJECT/include/ui/Bar.h \
  C:/Users/Admin/Downloads/PROJECT/include/ui/Panel.h \
- C:/Users/Admin/Downloads/PROJECT/include/StateStack.h \
- C:/Users/Admin/Downloads/PROJECT/include/entities/Boss.h \
- C:/Users/Admin/Downloads/PROJECT/include/Constants.h \
- C:/Users/Admin/Downloads/PROJECT/include/core/AssetManager.h \
- C:/Users/Admin/Downloads/PROJECT/include/core/RNG.h \
- C:/msys64/ucrt64/include/c++/15.2.0/random \
+ C:/Users/Admin/Downloads/PROJECT/include/ui/CombatUI.h \
  C:/msys64/ucrt64/include/c++/15.2.0/cmath \
  C:/msys64/ucrt64/include/math.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/specfun.h \
@@ -300,6 +295,12 @@ CMakeFiles/MiniGameSFML.dir/src/states/CombatState.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/tr1/poly_hermite.tcc \
  C:/msys64/ucrt64/include/c++/15.2.0/tr1/poly_laguerre.tcc \
  C:/msys64/ucrt64/include/c++/15.2.0/tr1/riemann_zeta.tcc \
+ C:/Users/Admin/Downloads/PROJECT/include/StateStack.h \
+ C:/Users/Admin/Downloads/PROJECT/include/entities/Boss.h \
+ C:/Users/Admin/Downloads/PROJECT/include/Constants.h \
+ C:/Users/Admin/Downloads/PROJECT/include/core/AssetManager.h \
+ C:/Users/Admin/Downloads/PROJECT/include/core/RNG.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/random \
  C:/msys64/ucrt64/include/c++/15.2.0/cstdint \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/random.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/opt_random.h \
@@ -311,4 +312,7 @@ CMakeFiles/MiniGameSFML.dir/src/states/CombatState.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/random.tcc \
  C:/msys64/ucrt64/include/c++/15.2.0/numeric \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_numeric.h \
- C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_numeric_defs.h
+ C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_numeric_defs.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/iostream \
+ C:/msys64/ucrt64/include/c++/15.2.0/istream \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/istream.tcc

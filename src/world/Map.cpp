@@ -1,9 +1,12 @@
 #include "world/Map.h"
+#include "entities/Player.h"
 #include "core/RNG.h"
+#include "core/AssetManager.h"
 #include "Constants.h"
 #include <fstream>
 #include <queue>
 #include <iostream>
+#include <optional>
 
 Map::Map()
     : m_width(Constants::MAP_WIDTH)
@@ -45,6 +48,11 @@ void Map::generateMap(RNG& rng, unsigned int seed) {
 void Map::generateZigZag(RNG& rng, unsigned int seed) {
     if (seed != 0) rng.setSeed(seed);
 
+    // Clear previous data
+    m_rocks.clear();
+    m_teleportGates.clear();
+    m_monsterPositions.clear();
+
     // Reset map to all walls (0)
     initializeTiles();
     for (int y = 0; y < m_height; ++y)
@@ -58,6 +66,7 @@ void Map::generateZigZag(RNG& rng, unsigned int seed) {
     m_goalPos = Vec2i(m_width - 1, m_height - 1);
 
     // Carve zigzag path từ (0,0) đến (width-1, height-1)
+    std::vector<Vec2i> pathCells;
     int y = 0;
     bool leftToRight = true;
 
@@ -66,11 +75,13 @@ void Map::generateZigZag(RNG& rng, unsigned int seed) {
             // Đi từ trái sang phải
             for (int x = 0; x < m_width; ++x) {
                 setTileType(x, y, TileType::Empty);
+                pathCells.push_back(Vec2i(x, y));
             }
         } else {
             // Đi từ phải sang trái
             for (int x = m_width - 1; x >= 0; --x) {
                 setTileType(x, y, TileType::Empty);
+                pathCells.push_back(Vec2i(x, y));
             }
         }
         y += 1;
@@ -81,11 +92,168 @@ void Map::generateZigZag(RNG& rng, unsigned int seed) {
     setTileType(m_startPos, TileType::Empty);  // Start có thể đứng được
     setTileType(m_goalPos, TileType::Goal);    // Goal để nhận diện kết thúc
 
-    // Zigzag thuần: không thêm obstacles để đường đi liền mạch
+    // Place game elements according to spec
+    placeGameElements(rng, pathCells);
+}
+
+void Map::placeGameElements(RNG& rng, const std::vector<Vec2i>& pathCells) {
+    // Exclude start and goal from placement
+    std::vector<Vec2i> availableCells;
+    for (const auto& cell : pathCells) {
+        if (cell != m_startPos && cell != m_goalPos) {
+            availableCells.push_back(cell);
+        }
+    }
+
+    if (availableCells.empty()) return;
+
+    // Place 2 normal monsters (Charmander, Bulbasaur)
+    for (int i = 0; i < 2 && !availableCells.empty(); ++i) {
+        int index = rng.rollRange(0, availableCells.size() - 1);
+        Vec2i monsterPos = availableCells[index];
+        setTileType(monsterPos, TileType::Enemy);
+        m_monsterPositions.push_back(monsterPos);
+        availableCells.erase(availableCells.begin() + index);
+    }
+
+    // Place 1 pair of portals (PortalA, PortalB)
+    if (availableCells.size() >= 2) {
+        int indexA = rng.rollRange(0, availableCells.size() - 1);
+        Vec2i portalA = availableCells[indexA];
+        availableCells.erase(availableCells.begin() + indexA);
+
+        int indexB = rng.rollRange(0, availableCells.size() - 1);
+        Vec2i portalB = availableCells[indexB];
+        availableCells.erase(availableCells.begin() + indexB);
+
+        setTileType(portalA, TileType::PortalA);
+        setTileType(portalB, TileType::PortalB);
+
+        // Store portal pair
+        TeleportGate gateA(portalA, 0);
+        gateA.targetPosition = portalB;
+        TeleportGate gateB(portalB, 0);
+        gateB.targetPosition = portalA;
+        m_teleportGates.push_back(gateA);
+        m_teleportGates.push_back(gateB);
+    }
+
+    // Place some rocks (not too dense)
+    int rockCount = std::min(5, static_cast<int>(availableCells.size()));
+    for (int i = 0; i < rockCount; ++i) {
+        int index = rng.rollRange(0, availableCells.size() - 1);
+        Vec2i rockPos = availableCells[index];
+        setTileType(rockPos, TileType::Rock);
+        m_rocks.emplace_back(rockPos);
+        availableCells.erase(availableCells.begin() + index);
+    }
 }
 
 void Map::createZigZagPath() {
     // Helper kept for compatibility; generateZigZag does full job.
+}
+
+void Map::generateFixedMap() {
+    // Clear previous data
+    m_rocks.clear();
+    m_teleportGates.clear();
+    m_monsterPositions.clear();
+
+    // Initialize 30x30 map
+    m_width = 30;
+    m_height = 30;
+    initializeTiles();
+
+    // Fixed map layout - each line is exactly 30 characters
+    const std::string mapLayout[30] = {
+        "##############################",
+        "#S................R..........#",
+        "############################.#",
+        "############################.#",
+        "############################.#",
+        "##..................C........#",
+        "##.###########################",
+        "##.###########################",
+        "##.###########################",
+        "##.###########################",
+        "##...R....A................###",
+        "##########################.###",
+        "##########################.###",
+        "##########################.###",
+        "##########################.###",
+        "###.....................B..###",
+        "###.##########################",
+        "###.##########################",
+        "###.##########################",
+        "###.##########################",
+        "###.##########################",
+        "###.##########################",
+        "###.....b....................#",
+        "############################.#",
+        "############################.#",
+        "############################.#",
+        "############################.#",
+        "############################.#",
+        "############################X#",
+        "##############################"
+    };
+
+    // Parse map layout
+    for (int y = 0; y < 30; ++y) {
+        for (int x = 0; x < 30; ++x) {
+            char c = mapLayout[y][x];
+            Vec2i pos(x, y);
+
+            switch (c) {
+                case '#':
+                    setTileType(pos, TileType::Wall);
+                    break;
+                case '.':
+                    setTileType(pos, TileType::Empty);
+                    break;
+                case 'S':
+                    setTileType(pos, TileType::Empty);
+                    m_startPos = pos;
+                    break;
+                case 'R':
+                    setTileType(pos, TileType::Rock);
+                    m_rocks.emplace_back(pos);
+                    break;
+                case 'A':
+                    setTileType(pos, TileType::PortalA);
+                    break;
+                case 'B':
+                    setTileType(pos, TileType::PortalB);
+                    break;
+                case 'C':
+                    setTileType(pos, TileType::Enemy);
+                    m_monsterPositions.push_back(pos);
+                    break;
+                case 'b':
+                    setTileType(pos, TileType::Enemy);
+                    m_monsterPositions.push_back(pos);
+                    break;
+                case 'X':
+                    setTileType(pos, TileType::Goal);
+                    m_goalPos = pos;
+                    break;
+                default:
+                    setTileType(pos, TileType::Empty);
+                    break;
+            }
+        }
+    }
+
+    // Setup portal pair: A (10,10) → B (24,15)
+    // Landing position from A is (25,15) - next to B
+    TeleportGate gateA(Vec2i(10, 10), 0);
+    gateA.targetPosition = Vec2i(25, 15);  // Landing position
+
+    TeleportGate gateB(Vec2i(24, 15), 1);
+    gateB.targetPosition = Vec2i(11, 10);  // Landing position next to A
+
+    m_teleportGates.push_back(gateA);
+    m_teleportGates.push_back(gateB);
 }
 
 
@@ -244,6 +412,153 @@ void Map::draw(sf::RenderTarget& target, const sf::View& view) const {
         }
     }
 }
+void Map::drawWithSprites(sf::RenderTarget& target, const sf::View& view, const AssetManager& assets) const {
+    // Get view bounds for culling
+    sf::FloatRect viewBounds(
+        view.getCenter().x - view.getSize().x / 2.0f,
+        view.getCenter().y - view.getSize().y / 2.0f,
+        view.getSize().x,
+        view.getSize().y
+    );
+
+    // Z-order rendering: floor/background → portal/rock → monsters → player → viền trắng → UI overlay
+
+    // 1. Draw floor/background
+    for (int y = 0; y < m_height; ++y) {
+        for (int x = 0; x < m_width; ++x) {
+            sf::Vector2f tilePos(x * Constants::TILE_SIZE, y * Constants::TILE_SIZE);
+
+            // Simple culling
+            if (tilePos.x + Constants::TILE_SIZE < viewBounds.left ||
+                tilePos.x > viewBounds.left + viewBounds.width ||
+                tilePos.y + Constants::TILE_SIZE < viewBounds.top ||
+                tilePos.y > viewBounds.top + viewBounds.height) {
+                continue;
+            }
+
+            Vec2i pos(x, y);
+            TileType type = getTileType(pos);
+
+            // Draw background tile
+            m_tileShape.setPosition(tilePos);
+            m_tileShape.setSize(sf::Vector2f(Constants::TILE_SIZE, Constants::TILE_SIZE));
+
+            if (type == TileType::Wall) {
+                m_tileShape.setFillColor(sf::Color::Black);
+                m_tileShape.setOutlineThickness(1.0f);
+                m_tileShape.setOutlineColor(sf::Color::White);
+            } else {
+                m_tileShape.setFillColor(sf::Color(30, 30, 30)); // Dark gray for walkable
+                m_tileShape.setOutlineThickness(0.0f);
+            }
+
+            target.draw(m_tileShape);
+        }
+    }
+
+    // 2. Draw portal/rock sprites
+    for (int y = 0; y < m_height; ++y) {
+        for (int x = 0; x < m_width; ++x) {
+            sf::Vector2f tilePos(x * Constants::TILE_SIZE, y * Constants::TILE_SIZE);
+
+            // Simple culling
+            if (tilePos.x + Constants::TILE_SIZE < viewBounds.left ||
+                tilePos.x > viewBounds.left + viewBounds.width ||
+                tilePos.y + Constants::TILE_SIZE < viewBounds.top ||
+                tilePos.y > viewBounds.top + viewBounds.height) {
+                continue;
+            }
+
+            Vec2i pos(x, y);
+            TileType type = getTileType(pos);
+
+            sf::Sprite sprite;
+            bool hasSprite = false;
+
+            switch (type) {
+                case TileType::Rock:
+                    sprite = assets.makeSprite("tile_rock", Constants::TILE_SIZE - 2, Constants::TILE_SIZE - 2);
+                    hasSprite = true;
+                    break;
+                case TileType::PortalA:
+                case TileType::PortalB:
+                    sprite = assets.makeSprite("tile_portal", Constants::TILE_SIZE - 2, Constants::TILE_SIZE - 2);
+                    hasSprite = true;
+                    break;
+                default:
+                    break;
+            }
+
+            if (hasSprite) {
+                sprite.setPosition(tilePos.x + 1, tilePos.y + 1);
+                target.draw(sprite);
+            }
+        }
+    }
+
+    // 3. Draw monsters
+    for (int y = 0; y < m_height; ++y) {
+        for (int x = 0; x < m_width; ++x) {
+            sf::Vector2f tilePos(x * Constants::TILE_SIZE, y * Constants::TILE_SIZE);
+
+            // Simple culling
+            if (tilePos.x + Constants::TILE_SIZE < viewBounds.left ||
+                tilePos.x > viewBounds.left + viewBounds.width ||
+                tilePos.y + Constants::TILE_SIZE < viewBounds.top ||
+                tilePos.y > viewBounds.top + viewBounds.height) {
+                continue;
+            }
+
+            Vec2i pos(x, y);
+            TileType type = getTileType(pos);
+
+            if (type == TileType::Enemy) {
+                // Determine monster type based on position (from fixed map)
+                std::string monsterKey;
+                if (pos == Vec2i(20, 5)) {
+                    monsterKey = "monster_chalamander"; // Charmander
+                } else if (pos == Vec2i(8, 22)) {
+                    monsterKey = "monster_bisasam"; // Bulbasaur
+                } else {
+                    monsterKey = "monster_chalamander"; // Default
+                }
+
+                sf::Sprite monsterSprite = assets.makeSprite(monsterKey, Constants::TILE_SIZE - 2, Constants::TILE_SIZE - 2);
+                monsterSprite.setPosition(tilePos.x + 1, tilePos.y + 1);
+                target.draw(monsterSprite);
+            } else if (type == TileType::Goal) {
+                // Draw boss at goal
+                sf::Sprite bossSprite = assets.makeSprite("monster_boss", Constants::TILE_SIZE - 2, Constants::TILE_SIZE - 2);
+                bossSprite.setPosition(tilePos.x + 1, tilePos.y + 1);
+                target.draw(bossSprite);
+            }
+        }
+    }
+}
+
+void Map::drawVisitedTiles(sf::RenderTarget& target, const Player& player) const {
+    // Draw semi-transparent overlay on visited tiles
+    sf::RectangleShape visitedOverlay;
+    visitedOverlay.setSize(sf::Vector2f(Constants::TILE_SIZE, Constants::TILE_SIZE));
+    visitedOverlay.setFillColor(sf::Color(100, 100, 100, 80)); // Gray with transparency
+
+    for (int y = 0; y < m_height; ++y) {
+        for (int x = 0; x < m_width; ++x) {
+            Vec2i pos(x, y);
+            if (player.hasVisited(pos)) {
+                visitedOverlay.setPosition(x * Constants::TILE_SIZE, y * Constants::TILE_SIZE);
+                target.draw(visitedOverlay);
+            }
+        }
+    }
+}
+
+void Map::drawPlayer(sf::RenderTarget& target, const Vec2i& playerPos, const AssetManager& assets) const {
+    // Draw player sprite on top of everything
+    sf::Sprite playerSprite = assets.makeSprite("player_map", Constants::TILE_SIZE - 2, Constants::TILE_SIZE - 2);
+    playerSprite.setPosition(playerPos.x * Constants::TILE_SIZE + 1, playerPos.y * Constants::TILE_SIZE + 1);
+    target.draw(playerSprite);
+}
 
 void Map::initializeTiles() {
     m_tiles.resize(m_height);
@@ -307,9 +622,10 @@ void Map::ensurePathExists(RNG& rng) {
 sf::Color Map::getTileColor(TileType type) const {
     switch (type) {
         case TileType::Empty: return sf::Color(50, 50, 50);        // Dark gray path
-        case TileType::Wall: return sf::Color::Black;              // Black walls with white border
+        case TileType::Wall: return sf::Color::Black;              // Black walls
         case TileType::Rock: return sf::Color(139, 69, 19);        // Brown rocks
-        case TileType::TeleportGate: return sf::Color(0, 255, 255); // Cyan teleport gates
+        case TileType::PortalA: return sf::Color(0, 255, 255);     // Cyan portal A
+        case TileType::PortalB: return sf::Color(255, 255, 0);     // Yellow portal B
         case TileType::Enemy: return sf::Color(255, 0, 0);         // Red enemies
         case TileType::Boss: return sf::Color(255, 0, 255);        // Magenta boss
         case TileType::Goal: return sf::Color(0, 255, 0);          // Green goal
@@ -322,9 +638,10 @@ char Map::getTileChar(TileType type) const {
         case TileType::Empty: return '.';
         case TileType::Wall: return 'W';
         case TileType::Rock: return '#';
-        case TileType::TeleportGate: return 'T';
+        case TileType::PortalA: return 'A';
+        case TileType::PortalB: return 'B';
         case TileType::Enemy: return 'E';
-        case TileType::Boss: return 'B';
+        case TileType::Boss: return 'X';
         case TileType::Goal: return 'G';
         default: return '?';
     }
@@ -335,10 +652,11 @@ TileType Map::charToTileType(char c) const {
         case '.': return TileType::Empty;
         case '#': return TileType::Rock;
         case 'W': return TileType::Wall;
-        case 'T': return TileType::TeleportGate;
+        case 'A': return TileType::PortalA;
+        case 'B': return TileType::PortalB;
         case 'G': return TileType::Goal;
         case 'E': return TileType::Enemy;
-        case 'B': return TileType::Boss;
+        case 'X': return TileType::Boss;
         default: return TileType::Empty;
     }
 }
@@ -549,8 +867,8 @@ void Map::setupTeleportGates(RNG& rng) {
         m_teleportGates.push_back(gate1);
         m_teleportGates.push_back(gate2);
 
-        setTileType(gate1Pos, TileType::TeleportGate);
-        setTileType(gate2Pos, TileType::TeleportGate);
+        setTileType(gate1Pos, TileType::PortalA);
+        setTileType(gate2Pos, TileType::PortalB);
     }
 }
 
@@ -614,7 +932,7 @@ const RockState* Map::getRockState(const Vec2i& pos) const {
 void Map::addTeleportGate(const Vec2i& pos, int pairId) {
     TeleportGate gate(pos, pairId);
     m_teleportGates.push_back(gate);
-    setTileType(pos, TileType::TeleportGate);
+    // Portal type will be set by caller
 }
 
 const TeleportGate* Map::getTeleportGate(const Vec2i& pos) const {
@@ -624,4 +942,38 @@ const TeleportGate* Map::getTeleportGate(const Vec2i& pos) const {
         }
     }
     return nullptr;
+}
+
+// Auto-path methods implementation
+void Map::destroyRock(const Vec2i& pos) {
+    RockState* rock = getRockState(pos);
+    if (rock) {
+        rock->isBroken = true;
+        rock->breakProgress = 2;
+        setTileType(pos, TileType::Empty);
+    }
+}
+
+std::optional<Vec2i> Map::teleportNext(const Vec2i& portalPos) const {
+    const TeleportGate* gate = getTeleportGate(portalPos);
+    if (!gate) return std::nullopt;
+
+    Vec2i targetPortal = gate->targetPosition;
+
+    // Find next empty position after target portal
+    // Try 4 directions from target portal
+    Vec2i directions[4] = {{1,0}, {0,1}, {0,-1}, {-1,0}}; // Right, Down, Up, Left
+
+    for (const auto& dir : directions) {
+        Vec2i nextPos = Vec2i(targetPortal.x + dir.x, targetPortal.y + dir.y);
+        if (isValidPosition(nextPos) && getTileType(nextPos) == TileType::Empty) {
+            return nextPos;
+        }
+    }
+
+    return std::nullopt; // No valid position after portal
+}
+
+bool Map::isInsideBounds(const Vec2i& pos) const {
+    return pos.x >= 0 && pos.x < m_width && pos.y >= 0 && pos.y < m_height;
 }

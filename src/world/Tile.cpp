@@ -23,7 +23,8 @@ bool Tile::blocksMovement() const {
 
 bool Tile::hasEvent() const {
     switch (m_type) {
-        case TileType::TeleportGate:
+        case TileType::PortalA:
+        case TileType::PortalB:
         case TileType::Enemy:
         case TileType::Boss:
         case TileType::Goal:

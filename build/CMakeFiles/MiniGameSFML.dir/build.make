@@ -491,6 +491,21 @@ CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.s"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\ui\Bar.cpp -o CMakeFiles\MiniGameSFML.dir\src\ui\Bar.cpp.s
 
+CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.obj: CMakeFiles/MiniGameSFML.dir/flags.make
+CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.obj: CMakeFiles/MiniGameSFML.dir/includes_CXX.rsp
+CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.obj: C:/Users/Admin/Downloads/PROJECT/src/ui/CombatUI.cpp
+CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.obj: CMakeFiles/MiniGameSFML.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.obj -MF CMakeFiles\MiniGameSFML.dir\src\ui\CombatUI.cpp.obj.d -o CMakeFiles\MiniGameSFML.dir\src\ui\CombatUI.cpp.obj -c C:\Users\Admin\Downloads\PROJECT\src\ui\CombatUI.cpp
+
+CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Downloads\PROJECT\src\ui\CombatUI.cpp > CMakeFiles\MiniGameSFML.dir\src\ui\CombatUI.cpp.i
+
+CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Downloads\PROJECT\src\ui\CombatUI.cpp -o CMakeFiles\MiniGameSFML.dir\src\ui\CombatUI.cpp.s
+
 # Object files for target MiniGameSFML
 MiniGameSFML_OBJECTS = \
 "CMakeFiles/MiniGameSFML.dir/src/main.cpp.obj" \
@@ -520,7 +535,8 @@ MiniGameSFML_OBJECTS = \
 "CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.obj" \
 "CMakeFiles/MiniGameSFML.dir/src/ui/Panel.cpp.obj" \
 "CMakeFiles/MiniGameSFML.dir/src/ui/TextLabel.cpp.obj" \
-"CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.obj"
+"CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.obj" \
+"CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.obj"
 
 # External object files for target MiniGameSFML
 MiniGameSFML_EXTERNAL_OBJECTS =
@@ -553,6 +569,7 @@ MiniGameSFML.exe: CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.obj
 MiniGameSFML.exe: CMakeFiles/MiniGameSFML.dir/src/ui/Panel.cpp.obj
 MiniGameSFML.exe: CMakeFiles/MiniGameSFML.dir/src/ui/TextLabel.cpp.obj
 MiniGameSFML.exe: CMakeFiles/MiniGameSFML.dir/src/ui/Bar.cpp.obj
+MiniGameSFML.exe: CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.obj
 MiniGameSFML.exe: CMakeFiles/MiniGameSFML.dir/build.make
 MiniGameSFML.exe: C:/msys64/ucrt64/lib/libsfml-graphics.dll.a
 MiniGameSFML.exe: C:/msys64/ucrt64/lib/libsfml-window.dll.a
@@ -561,7 +578,7 @@ MiniGameSFML.exe: C:/msys64/ucrt64/lib/libsfml-system.dll.a
 MiniGameSFML.exe: CMakeFiles/MiniGameSFML.dir/linkLibs.rsp
 MiniGameSFML.exe: CMakeFiles/MiniGameSFML.dir/objects1.rsp
 MiniGameSFML.exe: CMakeFiles/MiniGameSFML.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable MiniGameSFML.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Admin\Downloads\PROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable MiniGameSFML.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MiniGameSFML.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/edit.dll C:/Users/Admin/Downloads/PROJECT/build
 	"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/msys64/ucrt64/bin/libFLAC++.dll C:/Users/Admin/Downloads/PROJECT/build

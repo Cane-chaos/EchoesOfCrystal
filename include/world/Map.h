@@ -2,6 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <vector>
 #include <string>
+#include <optional>
 #include "Tile.h"
 #include "Types.h"
 
@@ -15,6 +16,7 @@ public:
     // Initialization
     void generateMaze(RNG& rng, unsigned int seed = 0);  // New maze generation
     void generateZigZag(RNG& rng, unsigned int seed = 0); // Serpentine track (Monopoly-like)
+    void generateFixedMap();  // Fixed map with single path from Start to Boss
     void generateMap(RNG& rng, unsigned int seed = 0);   // Legacy method
     bool loadFromCSV(const std::string& filename);
     bool saveToCSV(const std::string& filename) const;
@@ -38,7 +40,9 @@ public:
     // Enhanced features
     bool canBreakRock(const Vec2i& pos) const;
     void breakRock(const Vec2i& pos);
+    void destroyRock(const Vec2i& pos);  // For auto-path
     Vec2i getTeleportDestination(const Vec2i& gatePos) const;
+    std::optional<Vec2i> teleportNext(const Vec2i& portalPos) const;  // For auto-path
     void setupTeleportGates(RNG& rng);
 
     // Rock management
@@ -53,14 +57,22 @@ public:
     // Random position generation
     Vec2i getRandomWalkablePosition(RNG& rng) const;
 
+    // Auto-path utilities
+    Vec2i getGoalPosition() const { return m_goalPos; }
+    bool isInsideBounds(const Vec2i& pos) const;
+    const std::vector<Vec2i>& getMonsterPositions() const { return m_monsterPositions; }
+    std::vector<Vec2i>& getMonsterPositions() { return m_monsterPositions; }
+
     // Rendering
     void draw(sf::RenderTarget& target, const sf::View& view) const;
+    void drawWithSprites(sf::RenderTarget& target, const sf::View& view, const class AssetManager& assets) const;
+    void drawVisitedTiles(sf::RenderTarget& target, const class Player& player) const;
+    void drawPlayer(sf::RenderTarget& target, const Vec2i& playerPos, const class AssetManager& assets) const;
     
     // Getters
     int getWidth() const { return m_width; }
     int getHeight() const { return m_height; }
     Vec2i getStartPosition() const { return m_startPos; }
-    Vec2i getGoalPosition() const { return m_goalPos; }
     
 private:
     // Map generation methods
@@ -72,6 +84,7 @@ private:
     void placeMandatoryTiles();
     void placeMonsters(RNG& rng);
     void placeRocks(RNG& rng);
+    void placeGameElements(RNG& rng, const std::vector<Vec2i>& pathCells);
     void distributeTiles(RNG& rng);  // Legacy method
     void ensurePathExists(RNG& rng);
 

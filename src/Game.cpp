@@ -30,6 +30,9 @@ Game::Game()
     m_statisticsText.setCharacterSize(12);
     m_statisticsText.setFillColor(sf::Color::White);
     
+    // Load all game assets
+    m_assetManager.loadAll();
+
     registerStates();
     m_stateStack.pushState(StateID::Menu);
 }

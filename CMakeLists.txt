@@ -77,6 +77,7 @@ set(SOURCES
     src/ui/Panel.cpp
     src/ui/TextLabel.cpp
     src/ui/Bar.cpp
+    src/ui/CombatUI.cpp
 )
 
 # Header files

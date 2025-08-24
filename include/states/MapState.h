@@ -5,6 +5,7 @@
 #include "ui/TextLabel.h"
 #include "ui/Button.h"
 #include "ui/Bar.h"
+#include <optional>
 
 class MapState : public State {
 public:
@@ -24,8 +25,18 @@ public:
     void movePlayer(int steps);
     void handleTileEvent(TileType tileType);
     void handleRockObstacle();
-    void handleTeleportGate();
+    void handlePortalTeleport();
     void handleGoalReached();
+
+    // Auto-path system
+    void startAutoPath(int steps);
+    void updateAutoPath(sf::Time dt);
+    std::optional<Vec2i> pickNextPosition();
+    void checkCombatTrigger();
+    void checkGoalReached();
+
+    // Combat result handling
+    void onCombatEnded(CombatResult result);
     
     // Getters for other states
     Player& getPlayer() { return m_player; }
@@ -51,4 +62,12 @@ private:
     UI::Bar m_mpBar;
     
     bool m_canRoll;
+
+    // Auto-path system
+    int m_remainingSteps;
+    bool m_autoPathActive;
+    sf::Time m_stepTimer;
+    sf::Time m_stepDelay;
+    bool m_justTeleported;
+    Vec2i m_combatMonsterPos; // Store monster position for combat result handling
 };

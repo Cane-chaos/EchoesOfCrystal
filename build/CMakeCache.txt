@@ -237,11 +237,17 @@ MiniGameSFML_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 MiniGameSFML_SOURCE_DIR:STATIC=C:/Users/Admin/Downloads/PROJECT
 
+//No help, variable specified on the command line.
+NLOHMANN_JSON_INCLUDE_DIR:UNINITIALIZED=C:/nlohmann-json/include
+
 //The directory containing a CMake configuration file for SFML.
 SFML_DIR:PATH=C:/msys64/ucrt64/lib/cmake/SFML
 
 //Path to a file.
 SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND
+
+//No help, variable specified on the command line.
+SFML_ROOT:UNINITIALIZED=C:/SFML/SFML-2.6.2
 
 //The directory containing a CMake configuration file for nlohmann_json.
 nlohmann_json_DIR:PATH=C:/msys64/ucrt64/share/cmake/nlohmann_json

@@ -704,6 +704,30 @@ src/ui/Button.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MiniGameSFML.dir\build.make CMakeFiles/MiniGameSFML.dir/src/ui/Button.cpp.s
 .PHONY : src/ui/Button.cpp.s
 
+src/ui/CombatUI.obj: src/ui/CombatUI.cpp.obj
+.PHONY : src/ui/CombatUI.obj
+
+# target to build an object file
+src/ui/CombatUI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MiniGameSFML.dir\build.make CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.obj
+.PHONY : src/ui/CombatUI.cpp.obj
+
+src/ui/CombatUI.i: src/ui/CombatUI.cpp.i
+.PHONY : src/ui/CombatUI.i
+
+# target to preprocess a source file
+src/ui/CombatUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MiniGameSFML.dir\build.make CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.i
+.PHONY : src/ui/CombatUI.cpp.i
+
+src/ui/CombatUI.s: src/ui/CombatUI.cpp.s
+.PHONY : src/ui/CombatUI.s
+
+# target to generate assembly for a file
+src/ui/CombatUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MiniGameSFML.dir\build.make CMakeFiles/MiniGameSFML.dir/src/ui/CombatUI.cpp.s
+.PHONY : src/ui/CombatUI.cpp.s
+
 src/ui/Panel.obj: src/ui/Panel.cpp.obj
 .PHONY : src/ui/Panel.obj
 
@@ -881,6 +905,9 @@ help:
 	@echo ... src/ui/Button.obj
 	@echo ... src/ui/Button.i
 	@echo ... src/ui/Button.s
+	@echo ... src/ui/CombatUI.obj
+	@echo ... src/ui/CombatUI.i
+	@echo ... src/ui/CombatUI.s
 	@echo ... src/ui/Panel.obj
 	@echo ... src/ui/Panel.i
 	@echo ... src/ui/Panel.s
